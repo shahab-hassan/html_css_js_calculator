@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Bangers&family=Montserrat:wght@400;600&family=Oswald:wght@600&family=Poppins:wght@300&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.container {
+    margin: 40px 0px;
+    width: 100%;
+}
+
+#mainHeading {
+    font-family: 'Bangers', cursive;
+    font-size: 45px;
+    color: yellow;
+    text-align: center;
+}
+
+#calculator {
+    /* display: block; */
+    text-align: center;
+    border: 2px solid rgb(154, 154, 154);
+    border-radius: 20px;
+    height: 43vh;
+    padding: 50px 0px;
+    background-color: black;
+    width: 17%;
+    margin: 50px auto;
+}
+
+table {
+    margin: 10px auto;
+    /* background-color: black; */
+}
+
+button {
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin: 3px;
+}
+
+input {
+    background-color: black;
+    color: white;
+}
+
+.line {
+    border: 1px solid white;
+    width: 30%;
+    margin: 30px auto;
+}
+
+#zeroBtn {
+    position: relative;
+    z-index: 10;
+    width: 200%;
+    /* background-color: red; */
+    text-align: left;
+    padding-left: 15px;
+    border: 15px;
+}
+
+.col4 {
+    background-color: yellow;
+    color: black;
+    font-weight: 800;
+}
+
+.grey {
+    background-color: rgb(155, 155, 155);
+    font-weight: 900;
+    font-size: 15px;
+    color: black;
+}
+
+.lightBlack {
+    background-color: rgb(40, 40, 40);
+}
+
+input {
+    width: 57%;
+    margin-bottom: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 6px 8px;
+}
